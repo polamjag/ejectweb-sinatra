@@ -5,6 +5,6 @@
   %body
     %h1 eject web on nexus 7
     %form{:method => 'post', :action => '/eject'}
-      %input{:type => 'textfield', :name => 'dev', :placeholder => 'leave blank to specify device to eject', :style => 'width: 20em'}
+      %input{:type => 'textfield', :name => 'dev', :placeholder => 'specify device to eject', :style => 'width: 20em'}
       %button{:type => 'submit', :value => 'eject'} Eject!!!
     %p= @status
